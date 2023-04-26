@@ -1,0 +1,67 @@
+body {
+    background: url(https://painel.compufour.com.br/BG_Parceiro.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: inset 0px 0 360px 360px rgba(0, 0, 0, 0.4);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#loginRegister {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.1px);
+    padding: 30px;
+    font-size: 18px;
+}
+
+#loginRegister label {
+    font-size: 16px;
+}
+
+nav .active {
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: inset 0px 0px 20px 2px rgba(255, 255, 255, 0.1);
+}
+
+nav .nav-login {
+    color: #fff !important;
+    border-radius: 40px 10px 10px 40px;
+}
+
+nav .nav-register {
+    color: #fff !important;
+    border-radius: 10px 40px 40px 10px;
+}
+
+.btn {
+    flex: 1 1 auto;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: 0px;
+}
+
+.btn:hover {
+    background-position: right center;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #0C77BE 0%, #5490b8 51%, #42a5f5 100%) !important;
+}
+
+.btn-secondary {
+    background-image: linear-gradient(to right, #42a5f5 0%, #5490b8 51%, #0C77BE 100%) !important;
+}
+
+.form-text {
+    color: rgb(199, 199, 199)
+}
